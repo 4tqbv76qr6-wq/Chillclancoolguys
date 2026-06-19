@@ -1,0 +1,102 @@
+/* --- Global reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Body --- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+/* --- Header --- */
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  border-bottom: 2px solid #444;
+}
+
+header .logo h1 {
+  font-size: 28px;
+  color: #4db8ff;
+}
+
+header .logo p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* --- Navigation --- */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #4db8ff;
+  color: #000;
+}
+
+/* --- Main content --- */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+main h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #4db8ff;
+}
+
+main h3 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  color: #66ccff;
+}
+
+main p, main li {
+  margin-bottom: 10px;
+}
+
+/* --- Sections --- */
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #1b1b1b;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #aaa;
+  border-top: 2px solid #444;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
